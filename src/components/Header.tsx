@@ -4,9 +4,11 @@ import Logo from "@/shared/ui/Logo";
 import Nav from "@/shared/ui/Nav";
 import MenuIcon from "@/assets/MenuIcon";
 import { useState } from "react";
+import useOnClickOutside from "@/hooks/useOnClickOutside";
 
 const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const navRef = useOnClickOutside<HTMLDivElement>(() => setShowMobileMenu(false));
 
   const handleMobileMenuClick = () => {
     setShowMobileMenu(showMobileMenu => !showMobileMenu);
@@ -23,7 +25,7 @@ const Header = () => {
         </div>
       </div>
       <div className={styles.mobileContainer}>
-        <div className={styles.mobileNav}>
+        <div className={styles.mobileNav} ref={navRef}>
           <button className={styles.mobileMenuButton} onClick={handleMobileMenuClick}>
             <MenuIcon/>
           </button>

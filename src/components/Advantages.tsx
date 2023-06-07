@@ -21,7 +21,9 @@ const Advantages = () => {
             <p className={styles.desc}>
               Aproveite esta seção para destacar os benefícios do seu produto ou serviço.
             </p>
-            <button className={styles.plus}><PlusIcon /></button>
+            <div className={styles.plus}>
+              <button><PlusIcon /></button>
+            </div>
           </div>
           <div className={styles.card}>
             <img className={styles.icon} src="/images/coin.png" alt="Advantage Icon"/>
@@ -29,7 +31,9 @@ const Advantages = () => {
             <p className={styles.desc}>
               Aproveite esta seção para destacar os benefícios do seu produto ou serviço.
             </p>
-            <button className={styles.plus}><PlusIcon /></button>
+            <div className={styles.plus}>
+              <button><PlusIcon /></button>
+            </div>
           </div>
           <div className={styles.card}>
             <img className={styles.icon} src="/images/cards.png" alt="Advantage Icon"/>
@@ -37,7 +41,9 @@ const Advantages = () => {
             <p className={styles.desc}>
               Aproveite esta seção para destacar os benefícios do seu produto ou serviço.
             </p>
-            <button className={styles.plus}><PlusIcon /></button>
+            <div className={styles.plus}>
+              <button><PlusIcon /></button>
+            </div>
           </div>
         </div>
       </div>
