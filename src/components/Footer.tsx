@@ -1,7 +1,7 @@
 import Logo from "@/shared/ui/Logo";
-import styles from "./Footer.module.scss";
 import Nav from "@/shared/ui/Nav";
 import Socials from "@/shared/ui/Socials";
+import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (

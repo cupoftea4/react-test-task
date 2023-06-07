@@ -1,6 +1,6 @@
 import AccentButton from "@/shared/ui/AccentButton";
-import styles from "./Hero.module.scss";
 import SecondaryButton from "@/shared/ui/SecondaryButton";
+import styles from "./Hero.module.scss";
 
 const Hero = () => {
   return (

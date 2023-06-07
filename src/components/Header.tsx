@@ -1,10 +1,10 @@
-import styles from "./Header.module.scss";
-import Socials from "../shared/ui/Socials";
+import { useState } from "react";
+import useOnClickOutside from "@/hooks/useOnClickOutside";
+import Socials from "@/shared/ui/Socials";
 import Logo from "@/shared/ui/Logo";
 import Nav from "@/shared/ui/Nav";
 import MenuIcon from "@/assets/MenuIcon";
-import { useState } from "react";
-import useOnClickOutside from "@/hooks/useOnClickOutside";
+import styles from "./Header.module.scss";
 
 const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);

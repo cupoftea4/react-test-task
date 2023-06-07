@@ -1,6 +1,6 @@
 import PlusIcon from "@/assets/PlusIcon";
-import styles from "./Advantages.module.scss";
 import Separator from "@/shared/ui/Separator";
+import styles from "./Advantages.module.scss";
 
 const Advantages = () => {
   return (

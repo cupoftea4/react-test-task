@@ -1,4 +1,4 @@
-import { FC } from "react"
+import { FC } from "react";
 
 type OwnProps = {
   light?: boolean
@@ -14,4 +14,4 @@ const Logo: FC<OwnProps> = ({light = false}) => {
   )
 }
 
-export default Logo
+export default Logo;

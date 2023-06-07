@@ -1,6 +1,6 @@
 import Separator from "@/shared/ui/Separator";
-import styles from "./Contact.module.scss";
 import AccentButton from "@/shared/ui/AccentButton";
+import styles from "./Contact.module.scss";
 
 const Contact = () => {
   return (
@@ -41,4 +41,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;

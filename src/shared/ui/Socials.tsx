@@ -1,8 +1,8 @@
+import { FC } from 'react';
 import FacebookIcon from '@/assets/socials/FacebookIcon';
 import InstagramIcon from '@/assets/socials/InstagramIcon';
-import styles from './Socials.module.scss';
-import { FC } from 'react';
 import { classes } from '@/styles/utils';
+import styles from './Socials.module.scss';
 
 type OwnProps = {
   light?: boolean;
@@ -17,4 +17,4 @@ const Socials : FC<OwnProps> = ({light = false}) => {
   )
 }
 
-export default Socials
+export default Socials;
