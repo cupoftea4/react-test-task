@@ -34,6 +34,9 @@
         height: 30rem;
         position: relative;
         @include glowing-effect;
+        @include tablet {
+          width: 23rem;
+        }
         img {
           z-index: 2;
           top: 0;
@@ -48,12 +51,12 @@
           &.shape:first-child {
             width: 4rem;
             top: 5rem;
-            left: 6.5rem;
+            left: 20%;
           }
           &.shape:nth-child(2) {
             width: 10rem;
             top: 0;
-            left: 23rem;
+            left: 70%;
           }
           &.shape:nth-child(3) {
             width: 5rem;
@@ -70,8 +73,6 @@
             transform: rotate(70deg);
           }
         }
-
-
       }
     }
   }
