@@ -1,0 +1,14 @@
+.root {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border: 1px solid var(--accent-color-light);
+  padding: .75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out, scale 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--accent-color-light);
+    scale: 1.05;
+  }
+}

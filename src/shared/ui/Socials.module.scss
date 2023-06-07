@@ -1,0 +1,33 @@
+.root {
+  &.light {
+    path {
+      fill: var(--secondary-color);
+
+    }
+    svg {
+      &:hover {
+        path {
+          fill: lightgray;
+        }
+      }
+    }
+  }
+  svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    transition: fill .2s ease-in-out;
+    &:hover {
+      path {
+        fill: var(--primary-color);
+      }
+    }
+  }
+  display: flex;
+  padding: .5rem;
+  gap: .25rem;
+  align-items: center;
+  a {
+    display: flex;
+  }
+  
+}

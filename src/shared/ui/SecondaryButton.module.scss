@@ -1,0 +1,13 @@
+.root {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  padding: .75rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, scale 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    scale: 1.05;
+  }
+}

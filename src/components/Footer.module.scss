@@ -1,0 +1,74 @@
+@use "../styles/mixins" as *;
+
+.root {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1rem;
+  .container {
+    max-width: 80rem;
+    margin: 0 auto;
+    .navContainer {
+      padding: 1rem 0 4rem 0;
+      display: flex;
+      justify-content: space-between;
+      .right {
+        display: flex;
+        align-items: center;
+      }
+      @include tablet {
+        flex-direction: column;
+        gap: 3rem;
+        .right {
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+        nav {
+          flex-direction: column;
+        }
+      }
+    }
+    .formContainer {
+      padding: 1rem 0;
+      .form {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        @include tablet {
+          flex-direction: column;
+          gap: 1rem;
+        }
+        --input-block-padding: .625rem;
+        .input {
+          padding: var(--input-block-padding) 1rem;
+          background-color: transparent;
+          border: 1px solid var(--secondary-color);
+          border-radius: .325rem 0 0 .325rem;
+          &::placeholder { 
+            color: var(--secondary-color);
+            opacity: .8; 
+          }
+        }
+        .button {
+          padding: var(--input-block-padding) 2rem;
+          background-color: var(--secondary-color);
+          color: var(--primary-color);
+          border: 1px solid var(--secondary-color);
+          border-radius: 0 .325rem .325rem 0;
+          @include mobile {
+            padding-inline: 1rem;
+          }
+        }
+      }
+    }
+    .separator {
+      background-color: var(--secondary-color);
+      display: block;
+      height: 1px;
+      margin: 1rem 0;
+    }
+    .bottom {
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  }
+}
