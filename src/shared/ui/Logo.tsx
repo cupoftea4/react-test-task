@@ -7,7 +7,9 @@ type OwnProps = {
 const Logo: FC<OwnProps> = ({light = false}) => {
   return (
     <div>
-      <img src={light ? "/logo-light.svg" : "/logo.svg"} alt="logo" />
+      <a href="#hero">
+        <img src={light ? "/logo-light.svg" : "/logo.svg"} alt="logo" />
+      </a>
     </div>
   )
 }

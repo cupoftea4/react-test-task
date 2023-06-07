@@ -3,7 +3,7 @@ import styles from "./About.module.scss";
 
 const About = () => {
   return (
-    <section className={styles.root}>
+    <section className={styles.root} id="about">
       <div className={styles.container}>
         <div className={styles.left}>
           <p className={styles.hashtag}>#contecomagente</p>

@@ -4,7 +4,7 @@ import AccentButton from "@/shared/ui/AccentButton";
 
 const Contact = () => {
   return (
-    <section className={styles.root}>
+    <section className={styles.root} id="contact">
       <div className={styles.container}>
         <img className={styles.shape} src="/images/contact.png" alt="Contact Shape"/>
         <h2 className={styles.title}>Ainda tem dúvidas? Fale conosco!</h2>

@@ -4,7 +4,7 @@ import Separator from "@/shared/ui/Separator";
 
 const Advantages = () => {
   return (
-    <section className={styles.root}>
+    <section className={styles.root} id="advantages">
       <div className={styles.container}>
         <div className={styles.top}>
          <h2>Um subtítulo para quem rolou até aqui!</h2>

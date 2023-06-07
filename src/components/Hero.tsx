@@ -4,7 +4,7 @@ import SecondaryButton from "@/shared/ui/SecondaryButton";
 
 const Hero = () => {
   return (
-    <section className={styles.root}>
+    <section className={styles.root} id="hero">
       <div className={styles.container}>
         <div className={styles.left}>
           <h1 className={styles.title}>Um slogan chamativo aqui.</h1>

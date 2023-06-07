@@ -32,9 +32,9 @@ const Header = () => {
           {showMobileMenu && 
             <nav className={styles.nav}>
               <ul>
-                <li className={styles.item}><a href="#">Home</a></li>
-                <li className={styles.item}><a href="#">Sobre</a></li>
-                <li className={styles.item}><a href="#">Contato</a></li>
+                <li className={styles.item}><a href="#advantages">o que fazemos</a></li>
+                <li className={styles.item}><a href="#about">como te ajudamos</a></li>
+                <li className={styles.item}><a href="#contact">fale conosco</a></li>
               </ul>
             </nav>
           }
